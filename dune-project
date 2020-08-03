@@ -1,5 +1,6 @@
 (lang dune 2.0)
 (name ez-file)
+(version 0.1.1)
 (allow_approximate_merlin)
 
 (generate_opam_files true)
