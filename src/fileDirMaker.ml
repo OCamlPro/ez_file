@@ -60,7 +60,9 @@ module Make(M : sig
       match basename with
       | "." | ".." -> ()
       | _ ->
-        M.mkdir filename mode
+        try
+          M.mkdir filename mode
+        with MinUnix.Unix_error (MinUnix.EEXIST, _, _) -> ()
 
   let safe_mkdir = make_dir ~p:true ~mode:0o755
 
