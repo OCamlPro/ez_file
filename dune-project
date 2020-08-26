@@ -10,7 +10,7 @@
  (synopsis "Easy file manipulation (read_file, write_file, etc.)")
  (description "This library provides some modules to read and write files, and create \nand scan directories.\n")
  (depends
-   (ocaml (>= 4.10.0))
+   (ocaml (>= 4.03.0))
    (re (and (>= 1.0.0) (< 2.0.0)))
    (ocplib_stuff (and (>= 0.1.0) (< 1.0.0)))
    (base-unix (= base))
