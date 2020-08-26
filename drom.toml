@@ -10,7 +10,7 @@ min-edition = "4.03.0"
 mode = "binary"
 name = "ez_file"
 synopsis = "Easy file manipulation (read_file, write_file, etc.)"
-version = "0.1.0"
+version = "0.1.1"
 
 # keys that you could also define:
 # dev-repo = "...dev-repo..."
