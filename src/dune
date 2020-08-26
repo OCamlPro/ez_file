@@ -1,6 +1,7 @@
+
 (library
- (public_name ez-file)
  (name ezFile)
+ (public_name ez_file)
  (wrapped false)
- (libraries ez-compat re ez-stdlib unix)
-  )
+ (libraries re ocplib_stuff unix)
+)
