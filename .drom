@@ -13,8 +13,8 @@ c78c4051e699f3e0816b370bd5b26c58 docs/index.html
 1e6c3e88922aed0893fc5d8e6f0e5b3e docs/sphinx/index.html
 a95f1ab7d178b468eff6188a527535d9 docs/style.css
 b1167bfb1bfcf1fcd7ee75d1642c5a05 drom.toml
-2c363f3a4039862657b9396f7c4520e5 dune-project
-937660efd785d41ee13c856a041f5296 ez_file.opam
+1c801097a4f972113126747d760525a7 dune-project
+6949ed8f885961a74050bfa2208a5e8a ez_file.opam
 d41d8cd98f00b204e9800998ecf8427e sphinx/_static/css/fixes.css
 0a65b84882d7bfac6dfd92446a14d397 sphinx/about.rst
 7fc362a114a753ad223794b8224b6320 sphinx/conf.py

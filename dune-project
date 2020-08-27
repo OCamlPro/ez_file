@@ -3,7 +3,7 @@
 (name ez_file)
 (allow_approximate_merlin)
 (generate_opam_files false)
-(version 0.1.1)
+(version 0.1.2)
 
 (package
  (name ez_file)
