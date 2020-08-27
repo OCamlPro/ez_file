@@ -15,5 +15,4 @@
    (ocplib_stuff (and (>= 0.1.0) (< 1.0.0)))
    (base-unix (>= base))
    (dune (and (>= 2.6.0) (< 3.0.0)))
- )
-)
+ ))
