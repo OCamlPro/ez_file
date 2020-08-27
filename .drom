@@ -5,12 +5,13 @@ ad3289a3ff6fdac282e549432114f82b .gitignore
 d41d8cd98f00b204e9800998ecf8427e .ocamlformat
 7a038eccc259630a7aaa876eceb826ba CHANGES.md
 8c71dd0a20524f84d2ddb7eb472de74f LICENSE.md
-1474430c82260083fa4bb1a4b781de18 Makefile
+2ecfa2e801979053f133aa390b6b00a0 Makefile
 b437ded55955d885b421f442f61f59bb README.md
 d41d8cd98f00b204e9800998ecf8427e docs/.nojekyll
 ed35af3f1c2d1d82a802ef41b86f5e66 docs/doc/index.html
-459f87d3dd236c5dc0f08261bebd7788 docs/index.html
+80a635ce4010575ae420fee145a0c416 docs/index.html
 1e6c3e88922aed0893fc5d8e6f0e5b3e docs/sphinx/index.html
+a95f1ab7d178b468eff6188a527535d9 docs/style.css
 ee20597e7ed2f088dbbc7d2e024e6a0a drom.toml
 effdffa6a5a619401f813d2aaacd9f00 dune-project
 8eb7f51520dd45e4c798f9fd78c8cf3b ez_file.opam
