@@ -12,8 +12,6 @@
 
 (** File operations on the stdlib [in_channel]/[out_channel] types *)
 
-open [@ocaml.warning "-33"] EzCompat
-
 include (FileSig.CONTENT_OPERATIONS with
           type in_file := in_channel
           and type out_file = out_channel)

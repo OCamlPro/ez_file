@@ -1,4 +1,4 @@
-[package]
+[project]
 authors = ["Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>"]
 copyright = "OCamlPro SAS"
 dir = "src"
@@ -13,13 +13,14 @@ synopsis = "Easy file manipulation (read_file, write_file, etc.)"
 version = "0.1.1"
 
 # keys that you could also define:
+# archive = "...archive..."
 # dev-repo = "...dev-repo..."
 # bug-reports = "...bug-reports..."
 # doc-api = "...doc-api..."
 # doc-gen = "...doc-gen..."
 # homepage = "...homepage..."
 
-[package]
+[project]
 description = """
 This library provides some modules to read and write files, and create 
 and scan directories.
@@ -29,15 +30,13 @@ and scan directories.
 skip = ""
 
 [dependencies]
+base-unix = "base unix"
 ocplib_stuff = "0.1.0"
 re = "1.0.0"
-base-unix = "base unix"
 
 [tools]
 dune = "2.6.0"
-
-[package]
-wrapped = false
+[project]
 pack = "EzFile"
-
+pack-modules = false
 

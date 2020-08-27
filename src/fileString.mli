@@ -15,8 +15,6 @@
 (* This module implements operations on filenames represented as strings,
    as in the Filename module of the Standard Library. *)
 
-open [@ocaml.warning "-33"] EzCompat
-
 include (FileSig.FILE_OPERATIONS with type t := string)
 
 (* [iter_dir f dirname] read directory [dirname] and calls [f] on

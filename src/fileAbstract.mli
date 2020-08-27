@@ -16,9 +16,6 @@
 (* This module implements operations on filenames, represented by an
    abstract type, so that manipulations of filenames are better checked. *)
 
-
-open [@ocaml.warning "-33"] EzCompat
-
 include (FileSig.FILE_OPERATIONS)
 
 val equal : t -> t -> bool

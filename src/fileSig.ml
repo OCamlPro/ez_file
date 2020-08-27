@@ -97,7 +97,7 @@ module type CONTENT_OPERATIONS = sig
      [f buffer len] on each chunk. The [buffer] is reused, and only
      the first [len] bytes are from the file. Chunks have a maximal
      size of 32768.  *)
-  val iter_blocks : (bytes -> int -> unit) -> in_file -> unit
+  val iter_blocks : (Bytes.t -> int -> unit) -> in_file -> unit
 
   (** [iter_lines f file] calls [f line] on all the lines [line] of
    the file [file]. *)
