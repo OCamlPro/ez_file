@@ -1,6 +1,6 @@
 [package]
-authors = ["Fabrice Le Fessant <fabrice.le_fessant@origin-labs.com>"]
-copyright = "OCamlPro SAS & Origin Labs SAS"
+authors = ["Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>"]
+copyright = "OCamlPro SAS"
 dir = "src"
 edition = "4.10.0"
 github-organization = "ocamlpro"

@@ -2,7 +2,7 @@
 Copyright and License
 =====================
 
-Copyright (c) 2020 OCamlPro SAS & Origin Labs SAS
+Copyright (c) 2020 OCamlPro SAS
 
 
 This software is distributed under the terms of the

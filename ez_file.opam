@@ -9,8 +9,8 @@ description: """
 This library provides some modules to read and write files, and create 
 and scan directories.
 """
-authors: ["Fabrice Le Fessant <fabrice.le_fessant@origin-labs.com>"]
-maintainer: ["Fabrice Le Fessant <fabrice.le_fessant@origin-labs.com>"]
+authors: ["Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>"]
+maintainer: ["Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>"]
 homepage: "https://ocamlpro.github.io/ez_file"
 doc: "https://ocamlpro.github.io/ez_file/sphinx"
 bug-reports: "https://github.com/ocamlpro/ez_file/issues"

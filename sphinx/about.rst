@@ -9,4 +9,4 @@ and scan directories.
 Authors
 -------
 
-* Fabrice Le Fessant <fabrice.le_fessant@origin-labs.com>
+* Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>
