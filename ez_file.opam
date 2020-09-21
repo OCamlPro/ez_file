@@ -2,10 +2,10 @@
 # Do not modify or add to the `skip` field of `drom.toml`.
 opam-version: "2.0"
 name: "ez_file"
-version: "0.1.2"
+version: "0.2.0"
 license: "LGPL-2.1-with-OCaml-exception"
 synopsis: "Easy file manipulation (read_file, write_file, etc.)"
-description: """
+description: """\
 This library provides some modules to read and write files, and create 
 and scan directories.
 """
@@ -31,9 +31,14 @@ build: [
   ]
 ]
 depends: [
-  "ocaml" {>= "4.03.0"}
-  "re" {>= "1.0.0" & < "2.0.0"}
+  "ocaml" {>= "4.07.0"}
+  "dune" {>= "2.6.0"}
+  "re" {>= "1.8.0" & < "2.0.0"}
   "ocplib_stuff" {>= "0.1.0" & < "1.0.0"}
   "base-unix" {>= "base"}
+  "ppx_inline_test" {with-test}
+  "ppx_expect" {with-test}
+  "odoc" {with-doc}
+  "ocamlformat" {with-test}
   "dune" {>= "2.6.0" & < "3.0.0"}
 ]
