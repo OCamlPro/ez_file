@@ -1,4 +1,3 @@
-
 .. ez_file documentation master file, created by
    drom new
    You can adapt this file completely to your liking, but it should at least
