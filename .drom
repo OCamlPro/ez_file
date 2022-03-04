@@ -5,7 +5,7 @@ version:0.6.0~dev
 
 # hash of toml configuration files
 # used for generation of all files
-ed55563d05f17407eb14607d300ad7ef:.
+38d7ee132fdca58e40e8593ebb731eb5:.
 # end context for .
 
 # begin context for .github/workflows/ci.ml
@@ -100,7 +100,7 @@ c8281f46ba9a11d0b61bc8ef67eaa357:docs/style.css
 
 # begin context for drom.toml
 # file drom.toml
-f35a1e785f05124f2af11f8d4e62d4a7:drom.toml
+4680d74fae3ab56021b78667d5b0fc25:drom.toml
 # end context for drom.toml
 
 # begin context for dune
@@ -110,12 +110,12 @@ df544cfaf9078d1bba2f90ed1b5adf5f:dune
 
 # begin context for dune-project
 # file dune-project
-fbc741bf8b5e8952446805237a35f100:dune-project
+d19df50bc2a2b6d306ddde718c10f7bf:dune-project
 # end context for dune-project
 
 # begin context for opam/ez_file.opam
 # file opam/ez_file.opam
-979841f5c5a64b5da8432842844dcab9:opam/ez_file.opam
+89634f5f8677617a9a6b729cbdfd3ca9:opam/ez_file.opam
 # end context for opam/ez_file.opam
 
 # begin context for scripts/after.sh
@@ -165,13 +165,18 @@ abc6ae223dbcd2a710665e948f370518:sphinx/license.rst
 
 # begin context for src/ez_file/dune
 # file src/ez_file/dune
-beebc8c3cfe907fce39a7cdc100189ec:src/ez_file/dune
+4ebbfb6c250e6241171b938a4bc7f6c0:src/ez_file/dune
 # end context for src/ez_file/dune
 
 # begin context for src/ez_file/index.mld
 # file src/ez_file/index.mld
-bed85e743dfd59e9bd016db13f965650:src/ez_file/index.mld
+1b046c188c2bde7a33d6bc66a917525f:src/ez_file/index.mld
 # end context for src/ez_file/index.mld
+
+# begin context for src/ez_file/package.toml
+# file src/ez_file/package.toml
+45c89f9c025ffd8438e7ba68ad24ab10:src/ez_file/package.toml
+# end context for src/ez_file/package.toml
 
 # begin context for test/expect-tests/dune
 # file test/expect-tests/dune

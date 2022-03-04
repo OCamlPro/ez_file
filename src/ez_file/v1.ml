@@ -10,12 +10,11 @@
 (*                                                                        *)
 (**************************************************************************)
 
-(* [String] and [Abstract] implement the [FileSig] interface. *)
+(* [FileString] and [FileAbstract] implement the [FileSig] interface. *)
 
-module OS = FileOS
-module Sig = FileSig
+module FileOS = FileOS
+module FileSig = FileSig
 
-include FileString
-module String = FileString
-module Abstract = FileAbstract
-module Channel = FileChannel
+module EzFile = FileString
+module FileAbstract = FileAbstract
+module FileChannel = FileChannel
