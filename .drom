@@ -13,11 +13,6 @@ version:0.6.0~dev
 ac2aab1d8f78befbbfca730668f71e8d:.github/workflows/ci.ml
 # end context for .github/workflows/ci.ml
 
-# begin context for .github/workflows/doc-deploy.yml
-# file .github/workflows/doc-deploy.yml
-444b25efba72664b575881a4b4fd9418:.github/workflows/doc-deploy.yml
-# end context for .github/workflows/doc-deploy.yml
-
 # begin context for .github/workflows/workflow.yml
 # file .github/workflows/workflow.yml
 0ccff850a6ed3d421d1a75eee435bc14:.github/workflows/workflow.yml
@@ -75,7 +70,7 @@ b437ded55955d885b421f442f61f59bb:README.md
 
 # begin context for docs/doc/index.html
 # file docs/doc/index.html
-ed35af3f1c2d1d82a802ef41b86f5e66:docs/doc/index.html
+c37a7235a116dd40fbb23168977dd549:docs/doc/index.html
 # end context for docs/doc/index.html
 
 # begin context for docs/favicon.png
@@ -90,7 +85,7 @@ ed35af3f1c2d1d82a802ef41b86f5e66:docs/doc/index.html
 
 # begin context for docs/sphinx/index.html
 # file docs/sphinx/index.html
-1e6c3e88922aed0893fc5d8e6f0e5b3e:docs/sphinx/index.html
+8abdf70572bcbd7973fd3e26e4ad5ecf:docs/sphinx/index.html
 # end context for docs/sphinx/index.html
 
 # begin context for docs/style.css
