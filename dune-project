@@ -21,7 +21,6 @@
    ppx_expect
    odoc
    ocamlformat
-   (dune (and (>= 2.6.0) (< 3.0.0)))
   )
  )
 

@@ -36,7 +36,7 @@ skip = ["src/ez_file/main.ml", "CHANGES.md", "test/expect-tests/test.ml"]
 
 # project-wide tools dependencies (not for package-specific deps)
 [tools]
-dune = "2.6.0"
+
 [tools.ocamlformat]
 for-test = true
 [tools.odoc]
