@@ -45,5 +45,4 @@ depends: [
   "ppx_expect" {with-test}
   "odoc" {with-doc}
   "ocamlformat" {with-test}
-  "dune" {>= "2.6.0" & < "3.0.0"}
 ]

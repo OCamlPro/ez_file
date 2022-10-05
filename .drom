@@ -1,11 +1,11 @@
 # Keep this file in your GIT repo to help drom track generated files
 # begin version
-version:0.6.0~dev
+version:0.6.1
 # end version
 
 # hash of toml configuration files
 # used for generation of all files
-38d7ee132fdca58e40e8593ebb731eb5:.
+1e8bab88f7e04062d57012ac8713cef4:.
 # end context for .
 
 # begin context for .github/workflows/ci.ml
@@ -105,12 +105,12 @@ df544cfaf9078d1bba2f90ed1b5adf5f:dune
 
 # begin context for dune-project
 # file dune-project
-d19df50bc2a2b6d306ddde718c10f7bf:dune-project
+f696952088932d3c128d6e9b9488bd4c:dune-project
 # end context for dune-project
 
 # begin context for opam/ez_file.opam
 # file opam/ez_file.opam
-89634f5f8677617a9a6b729cbdfd3ca9:opam/ez_file.opam
+e2417f212ffc48673801ad72bba92e7b:opam/ez_file.opam
 # end context for opam/ez_file.opam
 
 # begin context for scripts/after.sh
