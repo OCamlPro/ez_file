@@ -5,7 +5,7 @@ version:0.9.0
 
 # hash of toml configuration files
 # used for generation of all files
-9aa97f19d5f4d407d8d3ee24f5aab0c5:.
+03fa0c8a9b7139bc71c86b312dd79aef:.
 # end context for .
 
 # begin context for .github/workflows/ci.ml
@@ -15,12 +15,12 @@ ac2aab1d8f78befbbfca730668f71e8d:.github/workflows/ci.ml
 
 # begin context for .github/workflows/workflow.yml
 # file .github/workflows/workflow.yml
-0ccff850a6ed3d421d1a75eee435bc14:.github/workflows/workflow.yml
+6b1ee9e0d62afe299c8fe62efa42c21d:.github/workflows/workflow.yml
 # end context for .github/workflows/workflow.yml
 
 # begin context for .gitignore
 # file .gitignore
-4fbab3b9cc53d400585f1f8b93288bfe:.gitignore
+b82bcaa637d3f162f45c404af9dd3b4d:.gitignore
 # end context for .gitignore
 
 # begin context for .ocamlformat
@@ -38,6 +38,16 @@ c8f70450e7d78c0387644864ffe8cbd5:.ocamlformat-ignore
 1281376e351d6c2be9ea4c576a29ebd4:.ocp-indent
 # end context for .ocp-indent
 
+# begin context for .vscode/settings.json
+# file .vscode/settings.json
+c3d12805c4eeee16a89bfeee357c8325:.vscode/settings.json
+# end context for .vscode/settings.json
+
+# begin context for .vscode/tasks.json
+# file .vscode/tasks.json
+7884eee2b10cf89cff5d1e466646b046:.vscode/tasks.json
+# end context for .vscode/tasks.json
+
 # begin context for CHANGES.md
 # file CHANGES.md
 7a038eccc259630a7aaa876eceb826ba:CHANGES.md
@@ -50,8 +60,13 @@ cdfde087b1ceb33b9c5f9d01ddc08d62:LICENSE.md
 
 # begin context for Makefile
 # file Makefile
-af1157fb3599c96e00152d564db64b64:Makefile
+05325f8fa82ef34fa0bab395248cc8b3:Makefile
 # end context for Makefile
+
+# begin context for Makefile.drom
+# file Makefile.drom
+25061d68284137e2639975011a16b300:Makefile.drom
+# end context for Makefile.drom
 
 # begin context for README.md
 # file README.md
@@ -80,7 +95,7 @@ c37a7235a116dd40fbb23168977dd549:docs/doc/index.html
 
 # begin context for docs/index.html
 # file docs/index.html
-2ebaaca3b5699237d9b2b3a92092f2c2:docs/index.html
+0677f3ef5de144072f0dda02b8cd7f7e:docs/index.html
 # end context for docs/index.html
 
 # begin context for docs/sphinx/index.html
@@ -95,7 +110,7 @@ c8281f46ba9a11d0b61bc8ef67eaa357:docs/style.css
 
 # begin context for drom.toml
 # file drom.toml
-61839e8d3bf7209159a62ad2a75f2c66:drom.toml
+95d29c77567f1a83f56cd68941308a44:drom.toml
 # end context for drom.toml
 
 # begin context for dune
@@ -105,12 +120,14 @@ df544cfaf9078d1bba2f90ed1b5adf5f:dune
 
 # begin context for dune-project
 # file dune-project
-6d4cd5636f52fc7edf771a588766bb6c:dune-project
+43b99f0e75cf087e6db9f4111d8f91fd:dune-project
+416e6e9216aadb14b8d518a6094d828b:dune-project
 # end context for dune-project
 
 # begin context for opam/ez_file.opam
 # file opam/ez_file.opam
-181b3a7dd59114806144fa4c1b4a01b3:opam/ez_file.opam
+45cb77a1e984ab8eb84d21ce2b2cf362:opam/ez_file.opam
+fce746e3f55c5b5faa25451407842c0a:opam/ez_file.opam
 # end context for opam/ez_file.opam
 
 # begin context for scripts/after.sh
@@ -125,8 +142,13 @@ df544cfaf9078d1bba2f90ed1b5adf5f:dune
 
 # begin context for scripts/copy-bin.sh
 # file scripts/copy-bin.sh
-bb3a9d286f0dc64021db4194427263ee:scripts/copy-bin.sh
+7fe4ada2a2fc5a0ebf9a2f483679a0ae:scripts/copy-bin.sh
 # end context for scripts/copy-bin.sh
+
+# begin context for scripts/static-build.sh
+# file scripts/static-build.sh
+cda3f8bad69d9c6e8cbeab1c720d739a:scripts/static-build.sh
+# end context for scripts/static-build.sh
 
 # begin context for sphinx/_static/css/fixes.css
 # file sphinx/_static/css/fixes.css
@@ -150,7 +172,7 @@ bb3a9d286f0dc64021db4194427263ee:scripts/copy-bin.sh
 
 # begin context for sphinx/install.rst
 # file sphinx/install.rst
-51fc8c1636ef901c660808ace2fa032f:sphinx/install.rst
+1283ed1cc1357f05e4018c2e41e18103:sphinx/install.rst
 # end context for sphinx/install.rst
 
 # begin context for sphinx/license.rst
@@ -160,7 +182,7 @@ bb3a9d286f0dc64021db4194427263ee:scripts/copy-bin.sh
 
 # begin context for src/ez_file/dune
 # file src/ez_file/dune
-4ebbfb6c250e6241171b938a4bc7f6c0:src/ez_file/dune
+d4c00bd7acad8b3918b729fc6fb153f9:src/ez_file/dune
 # end context for src/ez_file/dune
 
 # begin context for src/ez_file/index.mld
@@ -178,37 +200,12 @@ d084e0c0b356453f70a0ab97451d4863:src/ez_file/package.toml
 e2b4f39fcfb303f845699e550cb89a31:test/expect-tests/dune
 # end context for test/expect-tests/dune
 
+# begin context for test/expect-tests/dune.drom
+# file test/expect-tests/dune.drom
+619a1392093d0d7aad989e3d225d719f:test/expect-tests/dune.drom
+# end context for test/expect-tests/dune.drom
+
 # begin context for test/expect-tests/test.ml
 # file test/expect-tests/test.ml
 734ed6b2b1cb8e0d6bce316d155bb157:test/expect-tests/test.ml
 # end context for test/expect-tests/test.ml
-
-# begin context for test/inline-tests/dune
-# file test/inline-tests/dune
-f83749a3827aaac58638994a6e6528d1:test/inline-tests/dune
-# end context for test/inline-tests/dune
-
-# begin context for test/inline-tests/test.ml
-# file test/inline-tests/test.ml
-e001d04969100c711855223ad6c23e6a:test/inline-tests/test.ml
-# end context for test/inline-tests/test.ml
-
-# begin context for test/output-tests/dune
-# file test/output-tests/dune
-75c72884478404495ffa9485c85ac098:test/output-tests/dune
-# end context for test/output-tests/dune
-
-# begin context for test/output-tests/test1.expected
-# file test/output-tests/test1.expected
-f0ef7081e1539ac00ef5b761b4fb01b3:test/output-tests/test1.expected
-# end context for test/output-tests/test1.expected
-
-# begin context for test/output-tests/test2.expected
-# file test/output-tests/test2.expected
-894dddf3304cbcb0fe04f7c2bbd56073:test/output-tests/test2.expected
-# end context for test/output-tests/test2.expected
-
-# begin context for test/output-tests/test2.ml
-# file test/output-tests/test2.ml
-704ff05ffd8b0e50716542fa55b2db8a:test/output-tests/test2.ml
-# end context for test/output-tests/test2.ml

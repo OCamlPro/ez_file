@@ -3,9 +3,8 @@
 
 (cram enable)
 (name ez_file)
-(allow_approximate_merlin)
 (generate_opam_files false)
-(version 0.4.0)
+(version 0.4.1)
 (formatting (enabled_for ocaml reason))
 
 (package
@@ -13,17 +12,23 @@
  (synopsis "Easy file manipulation (read_file, write_file, etc.)")
  (description "This library provides some modules to read and write files, and create \nand scan directories.\n")
  
+  (sites
+    
+  )
+
  (depends
-   (ocaml (>= 4.07.0))
+   (ocaml (>= 4.11.0))
    (re (and (>= 1.8.0) (< 2.0.0)))
    (ocplib_stuff (and (>= 0.1.0) (< 1.0.0)))
    (base-unix ( >= base ))
-   ppx_inline_test
    ppx_expect
    odoc
-   ocamlformat
-   (dune (and (>= 2.6.0) (< 3.0.0)))
+   (dune ( >= 2.8 ))
   )
  )
 
 
+
+; add this in dune-project-trailer if you need it, as it is not used
+; by the most recent versions of dune
+;(allow_approximate_merlin)

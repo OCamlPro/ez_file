@@ -1,18 +1,20 @@
 [project]
-drom-version = "0.1"
+drom-version = "0.9.3"
+share-repo = "https://github.com/OCamlPro/drom-share"
+share-version = "0.9.3"
 
 [project]
 authors = ["Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>"]
-ci-systems = ["ubuntu-latest", "macos-latest"]
+ci-systems = ["ubuntu-latest", "macos-latest", "windows-latest"]
 copyright = "OCamlPro SAS"
-edition = "4.10.0"
+edition = "4.14.2"
 github-organization = "ocamlpro"
 license = "LGPL2"
-min-edition = "4.07.0"
+min-edition = "4.11.0"
 name = "ez_file"
 skeleton = "program"
 synopsis = "Easy file manipulation (read_file, write_file, etc.)"
-version = "0.4.0"
+version = "0.4.1"
 
 # keys that you could also define:
 # odoc-target = "...odoc-target..."
@@ -31,21 +33,24 @@ and scan directories.
 """
 
 [project]
-skip = ["src/ez_file/main.ml", "CHANGES.md", "test/expect-tests/test.ml"]
+skip = ["src/ez_file/main.ml", "CHANGES.md",
+        "test/expect-tests/test.ml",
+        "test/inline-tests/dune", "test/inline-tests/dune.drom",
+        "test/inline-tests/test.ml",
+        "test/output-tests/dune", "test/output-tests/dune.drom",
+        "test/output-tests/test1.expected",
+        "test/output-tests/test2.ml",
+        "test/output-tests/test2.expected"]
 
 # project-wide library dependencies (not for package-specific deps)
 [dependencies]
 
 # project-wide tools dependencies (not for package-specific deps)
 [tools]
-dune = "2.6.0"
-[tools.ocamlformat]
-for-test = true
+dune = "2.8"
 [tools.odoc]
 for-doc = true
 [tools.ppx_expect]
-for-test = true
-[tools.ppx_inline_test]
 for-test = true
 
 [project]
@@ -73,6 +78,7 @@ share-dirs = ["share"]
 #  readme-trailer = "..."
 #  dot-gitignore-trailer = "..."
 [fields]
+dune-lang = "2.8.0"
 # ...
 
 [[package]]

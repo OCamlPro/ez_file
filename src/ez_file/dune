@@ -4,7 +4,11 @@
   (name ez_file)
   (public_name ez_file)
   (wrapped true)
+  ; use field 'dune-libraries' to add libraries without opam deps
   (libraries re ocplib_stuff unix )
+  ; use field 'dune-flags' to set this value
+  (flags (:standard))
+  ; use field 'dune-stanzas' to add more stanzas here
   
   
   )
@@ -13,4 +17,5 @@
 (documentation
   (package ez_file))
 
+; use field 'dune-trailer' to add more stuff here
 
