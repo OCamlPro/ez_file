@@ -41,10 +41,28 @@ module type CONTENT_OPERATIONS = sig
      applied.*)
   val read_file : in_file -> string
 
+  (** [read_text_file file] returns the contents of [file]. If the file is
+      opened, it is opened in text mode: this means that substrings ["\r\n"] are
+      converted to ["\n"] on Windows systems; no conversion is performed on
+      other systems.
+
+      When [file] is an {!in_channel}, it remains text mode (with implicit
+      conversion) when [read_text_file] terminates. *)
+  val read_text_file : in_file -> string
+
   (** [write_file file content] creates file [file] with content
      [content].  If the file is opened, it is opened in binary mode,
      no conversion is applied.*)
   val write_file : out_file -> string -> unit
+
+  (** [write_text_file file content] creates file [file] with content [content].
+      If the file is opened, it is opened in text mode: this means that ['\n']
+      characters are converted to ["\r\n"] on Windows systems; no conversion is
+      performed on other systems.
+
+      When [file] is an {!out_channel}, it remains text mode (with implicit
+      conversion) when [write_text_file] terminates. *)
+  val write_text_file : out_file -> string -> unit
 
   (** [read_subfile file pos len] returns a string containing [len]
      bytes read from file [file] at pos [pos]. If the file is opened,

@@ -51,9 +51,15 @@ let read_file ic =
   iter ic b s;
   EzBytes.free s;
   Buffer.contents b
+let read_text_file ic =
+  set_binary_mode_in ic false;
+  read_file ic
 let string_of_file = read_file
 
 let write_file = output_string
+let write_text_file oc str =
+  set_binary_mode_out oc false;
+  output_string oc str
 let file_of_string = write_file
 
 let read_subfile ic pos len =

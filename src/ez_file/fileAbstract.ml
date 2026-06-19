@@ -435,7 +435,9 @@ let read_sublines_to_list file off len =
 let iteri_lines f file = FileString.iteri_lines f (to_string file)
 let iter_lines f file = FileString.iter_lines f (to_string file)
 let write_file file s = FileString.write_file (to_string file) s
+let write_text_file file s = FileString.write_text_file (to_string file) s
 let read_file file = FileString.read_file (to_string file)
+let read_text_file file = FileString.read_text_file (to_string file)
 let write_lines file lines =
   FileString.write_lines (to_string file) lines
 let write_lines_of_list file lines =
