@@ -61,8 +61,8 @@ let with_open open_channel close_channel filename f =
 let with_in filename f = with_open open_in close_in filename f
 let with_in_bin filename f = with_open open_in_bin close_in filename f
 
-let with_out = with_open open_out close_out
-let with_out_bin = with_open open_out_bin close_out
+let with_out filename f = with_open open_out close_out filename f
+let with_out_bin filename f = with_open open_out_bin close_out filename f
 
 let copy_file f1 f2 =
   with_in_bin f1 (fun ic ->
@@ -74,15 +74,15 @@ let iter_blocks f filename =
       FileChannel.iter_blocks f ic)
 
 let write_file filename str =
-  with_out_bin filename (fun oc ->
-      output_string oc str)
+  with_out_bin filename (fun oc -> output_string oc str)
 let file_of_string = write_file
 
 let read_file filename =
   with_in_bin filename FileChannel.read_file
 let string_of_file = read_file
 
-
+let read_text_file filename =
+  with_in filename FileChannel.read_file
 let read_lines filename =
   with_in filename FileChannel.read_lines
 let read_lines_to_revlist filename =
@@ -90,6 +90,8 @@ let read_lines_to_revlist filename =
 let read_lines_to_list filename =
   with_in filename FileChannel.read_lines_to_list
 
+let write_text_file filename str =
+  with_out filename (fun oc -> FileChannel.write_file oc str)
 let write_lines filename lines =
   with_out filename (fun oc -> FileChannel.write_lines oc lines)
 let write_lines_of_list filename lines =
