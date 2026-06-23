@@ -14,7 +14,7 @@ min-edition = "4.11.0"
 name = "ez_file"
 skeleton = "program"
 synopsis = "Easy file manipulation (read_file, write_file, etc.)"
-version = "0.4.1"
+version = "0.5.0"
 
 # keys that you could also define:
 # odoc-target = "...odoc-target..."
